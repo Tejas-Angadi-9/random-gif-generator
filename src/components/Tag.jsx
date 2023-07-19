@@ -47,7 +47,7 @@ const Tag = () => {
 
   useEffect(() => {
     fetchData();
-  },[])
+  },[]) 
 
   return (
     <div className='w-[300px] bg-green-400 rounded-md border border-black flex flex-col items-center
